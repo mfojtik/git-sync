@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mfojtik/reposync/pkg/types"
+	"github.com/mfojtik/git-sync/pkg/types"
 	"github.com/spf13/cobra"
 )
 

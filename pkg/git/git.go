@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/mfojtik/reposync/pkg/types"
+	"github.com/mfojtik/git-sync/pkg/types"
 )
 
 func Checkout(r types.Repository, branch string) error {

@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"github.com/cheggaaa/pb"
-	reposync "github.com/mfojtik/reposync/pkg/sync"
-	"github.com/mfojtik/reposync/pkg/types"
+	reposync "github.com/mfojtik/git-sync/pkg/sync"
+	"github.com/mfojtik/git-sync/pkg/types"
 	"github.com/sethgrid/multibar"
 	"github.com/spf13/cobra"
 )

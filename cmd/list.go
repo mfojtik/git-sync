@@ -20,7 +20,7 @@ import (
 	"text/tabwriter"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/mfojtik/reposync/pkg/types"
+	"github.com/mfojtik/git-sync/pkg/types"
 	"github.com/spf13/cobra"
 )
 

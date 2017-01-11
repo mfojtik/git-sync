@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/mfojtik/reposync/cmd"
+import "github.com/mfojtik/git-sync/cmd"
 
 func main() {
 	cmd.Execute()

@@ -1,8 +1,8 @@
 package sync
 
 import (
-	"github.com/mfojtik/reposync/pkg/git"
-	"github.com/mfojtik/reposync/pkg/types"
+	"github.com/mfojtik/git-sync/pkg/git"
+	"github.com/mfojtik/git-sync/pkg/types"
 )
 
 func Repository(r types.Repository, progress chan<- int) error {
