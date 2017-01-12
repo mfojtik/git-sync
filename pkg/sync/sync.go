@@ -45,8 +45,11 @@ func Repository(r types.Repository, progress chan<- int) error {
 
 	progress <- 80
 	if currentBranch != "master" {
-		return git.Checkout(r, currentBranch)
+		git.Checkout(r, currentBranch)
 	}
+
+	progress <- 90
+	git.Cleanup(r)
 
 	progress <- 100
 	return nil
